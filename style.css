@@ -1,0 +1,112 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+}
+
+.front{
+    display: flex;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+}
+
+ul {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    background: blue;
+    height: 80px;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+h5{
+    margin-left: 15px;
+}
+
+.btn {
+    text-align: center;
+    margin-left: 37vw;
+}
+
+
+.row {
+    background: gray;
+    width: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+th {
+    background: blue;
+    color: whitesmoke;
+    padding: 5px 8px;
+    font-size: 15px;
+}
+
+tr{
+    font-size: 2vmin;
+}
+
+td{
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 2px;
+    font-size: 2vmin;
+    background: white;
+}
+
+tbody {
+    margin-top: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: gray;
+}
+
+button#dropdownMenuButton {
+    background: transparent;
+    border: none;
+    color: black    ;
+}
+
+.container-fluid {
+    background: whitesmoke;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
